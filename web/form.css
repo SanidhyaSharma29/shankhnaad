@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(to bottom right, #33ccff 0%, #99ffcc 100%);
+  background-size: 100% auto;
+  font-family: 'Tillana', cursive;
+}
+
+.site-header .header-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.header-bar .site-branding {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+
+.header-bar .site-branding a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+  margin-top: 100px;
+  background-color: white;
+  
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+}
+
+
